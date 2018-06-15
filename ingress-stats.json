@@ -680,6 +680,6 @@
     ]
   },
   "timezone": "browser",
-  "title": "Kubernetes nginx ingress stats",
+  "title": "Nginx Ingress Controller",
   "version": 43
 }
