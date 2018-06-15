@@ -636,7 +636,11 @@
   "refresh": "30s",
   "schemaVersion": 16,
   "style": "dark",
-  "tags": [],
+  "tags": [
+    "drone",
+    "drone-ci",
+    "ci/cd"
+  ],
   "templating": {
     "list": []
   },
@@ -672,5 +676,5 @@
   "timezone": "",
   "title": "Drone CI",
   "uid": "IT4-bnNik",
-  "version": 12
+  "version": 13
 }
