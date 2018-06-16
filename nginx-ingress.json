@@ -2,7 +2,7 @@
   "annotations": {
     "list": [
       {
-        "$$hashKey": "object:90",
+        "$$hashKey": "object:590",
         "builtIn": 1,
         "datasource": "-- Grafana --",
         "enable": true,
@@ -17,7 +17,7 @@
   "editable": true,
   "gnetId": 3050,
   "graphTooltip": 0,
-  "iteration": 1529100320978,
+  "iteration": 1529117896192,
   "links": [],
   "panels": [
     {
@@ -57,7 +57,6 @@
       "steppedLine": false,
       "targets": [
         {
-          "$$hashKey": "object:221",
           "expr": "sum(increase(nginx_connections_total{instance=~\"^$instance$\"}[1m])) by (type)",
           "format": "time_series",
           "interval": "1m",
@@ -495,9 +494,9 @@
       "stickyLabels": false,
       "targets": [
         {
-          "$$hashKey": "object:146",
+          "$$hashKey": "object:648",
           "dsType": "influxdb",
-          "expr": "sum(nginx_filterzone_responses_total{instance=~\"^$instance$\"}) by (key)",
+          "expr": "sum(nginx_filterzone_responses_total) by (key)",
           "format": "time_series",
           "groupBy": [
             {
@@ -557,7 +556,6 @@
       {
         "allValue": null,
         "current": {
-          "tags": [],
           "text": "All",
           "value": "$__all"
         },
