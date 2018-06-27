@@ -17,8 +17,7 @@
   "editable": true,
   "gnetId": 5926,
   "graphTooltip": 0,
-  "id": 11,
-  "iteration": 1529041698506,
+  "iteration": 1530064121896,
   "links": [],
   "panels": [
     {
@@ -1245,6 +1244,7 @@
       }
     }
   ],
+  "refresh": "10s",
   "schemaVersion": 16,
   "style": "dark",
   "tags": [
@@ -1256,7 +1256,6 @@
       {
         "allValue": ".*",
         "current": {
-          "tags": [],
           "text": "All",
           "value": "$__all"
         },
@@ -1280,7 +1279,7 @@
     ]
   },
   "time": {
-    "from": "now-3h",
+    "from": "now-30m",
     "to": "now"
   },
   "timepicker": {
@@ -1309,8 +1308,8 @@
       "30d"
     ]
   },
-  "timezone": "utc",
+  "timezone": "",
   "title": "CoreDNS",
   "uid": "XOUz8WNiz",
-  "version": 2
+  "version": 1
 }

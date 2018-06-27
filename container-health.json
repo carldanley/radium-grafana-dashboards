@@ -17,8 +17,7 @@
   "editable": true,
   "gnetId": 315,
   "graphTooltip": 0,
-  "id": 5,
-  "iteration": 1529102398292,
+  "iteration": 1530064095636,
   "links": [],
   "panels": [
     {
@@ -2252,7 +2251,6 @@
       {
         "allValue": ".*",
         "current": {
-          "selected": true,
           "text": "All",
           "value": "$__all"
         },
@@ -2276,7 +2274,7 @@
     ]
   },
   "time": {
-    "from": "now-5m",
+    "from": "now-30m",
     "to": "now"
   },
   "timepicker": {
@@ -2307,5 +2305,5 @@
   "timezone": "browser",
   "title": "Container Health",
   "uid": "mG-D07Nmk",
-  "version": 2
+  "version": 1
 }

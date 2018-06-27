@@ -17,7 +17,7 @@
   "editable": true,
   "gnetId": 3050,
   "graphTooltip": 0,
-  "iteration": 1529117896192,
+  "iteration": 1530064171017,
   "links": [],
   "panels": [
     {
@@ -489,9 +489,17 @@
       "mapCenterLatitude": 0,
       "mapCenterLongitude": 0,
       "maxDataPoints": 1,
+      "mouseWheelZoom": false,
       "repeat": null,
       "showLegend": true,
       "stickyLabels": false,
+      "tableQueryOptions": {
+        "geohashField": "geohash",
+        "latitudeField": "latitude",
+        "longitudeField": "longitude",
+        "metricField": "metric",
+        "queryType": "geohash"
+      },
       "targets": [
         {
           "$$hashKey": "object:648",
@@ -545,6 +553,7 @@
       "valueName": "total"
     }
   ],
+  "refresh": "10s",
   "schemaVersion": 16,
   "style": "dark",
   "tags": [
@@ -625,7 +634,7 @@
     ]
   },
   "time": {
-    "from": "now-3h",
+    "from": "now-30m",
     "to": "now"
   },
   "timepicker": {

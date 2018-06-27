@@ -1,43 +1,8 @@
 {
-  "__inputs": [
-    {
-      "name": "DS_PROMETHEUS",
-      "label": "Prometheus",
-      "description": "",
-      "type": "datasource",
-      "pluginId": "prometheus",
-      "pluginName": "Prometheus"
-    }
-  ],
-  "__requires": [
-    {
-      "type": "grafana",
-      "id": "grafana",
-      "name": "Grafana",
-      "version": "5.1.3"
-    },
-    {
-      "type": "panel",
-      "id": "graph",
-      "name": "Graph",
-      "version": "5.0.0"
-    },
-    {
-      "type": "datasource",
-      "id": "prometheus",
-      "name": "Prometheus",
-      "version": "5.0.0"
-    },
-    {
-      "type": "panel",
-      "id": "singlestat",
-      "name": "Singlestat",
-      "version": "5.0.0"
-    }
-  ],
   "annotations": {
     "list": [
       {
+        "$$hashKey": "object:1448",
         "builtIn": 1,
         "datasource": "-- Grafana --",
         "enable": true,
@@ -52,8 +17,7 @@
   "editable": true,
   "gnetId": 3320,
   "graphTooltip": 0,
-  "id": null,
-  "iteration": 1530063172372,
+  "iteration": 1530064076769,
   "links": [],
   "panels": [
     {
@@ -20454,7 +20418,10 @@
     "list": [
       {
         "allValue": null,
-        "current": {},
+        "current": {
+          "text": "192.168.13.61",
+          "value": "192.168.13.61"
+        },
         "datasource": "Prometheus",
         "hide": 0,
         "includeAll": false,
@@ -20474,7 +20441,10 @@
       },
       {
         "allValue": null,
-        "current": {},
+        "current": {
+          "text": "9100",
+          "value": "9100"
+        },
         "datasource": "Prometheus",
         "hide": 2,
         "includeAll": false,
@@ -20495,7 +20465,7 @@
     ]
   },
   "time": {
-    "from": "now-5m",
+    "from": "now-30m",
     "to": "now"
   },
   "timepicker": {
@@ -20525,6 +20495,6 @@
   },
   "timezone": "browser",
   "title": "Cluster Health",
-  "uid": "",
-  "version": 11
+  "uid": "G8zUViviz",
+  "version": 1
 }
