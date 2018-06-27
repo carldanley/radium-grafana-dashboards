@@ -2305,7 +2305,7 @@
     ]
   },
   "timezone": "browser",
-  "title": "Cluster Health",
+  "title": "Container Health",
   "uid": "mG-D07Nmk",
   "version": 2
 }
