@@ -1,40 +1,4 @@
 {
-  "__inputs": [
-    {
-      "name": "DS_PROMETHEUS",
-      "label": "Prometheus",
-      "description": "",
-      "type": "datasource",
-      "pluginId": "prometheus",
-      "pluginName": "Prometheus"
-    }
-  ],
-  "__requires": [
-    {
-      "type": "grafana",
-      "id": "grafana",
-      "name": "Grafana",
-      "version": "5.1.3"
-    },
-    {
-      "type": "panel",
-      "id": "graph",
-      "name": "Graph",
-      "version": "5.0.0"
-    },
-    {
-      "type": "datasource",
-      "id": "prometheus",
-      "name": "Prometheus",
-      "version": "5.0.0"
-    },
-    {
-      "type": "panel",
-      "id": "singlestat",
-      "name": "Singlestat",
-      "version": "5.0.0"
-    }
-  ],
   "annotations": {
     "list": [
       {
@@ -52,7 +16,6 @@
   "editable": true,
   "gnetId": 5573,
   "graphTooltip": 0,
-  "id": null,
   "links": [],
   "panels": [
     {
@@ -495,7 +458,7 @@
       "fill": 1,
       "grid": {},
       "gridPos": {
-        "h": 8,
+        "h": 7,
         "w": 12,
         "x": 0,
         "y": 8
@@ -581,7 +544,7 @@
       "datasource": "Prometheus",
       "fill": 1,
       "gridPos": {
-        "h": 8,
+        "h": 7,
         "w": 12,
         "x": 12,
         "y": 8
@@ -663,7 +626,7 @@
         "h": 1,
         "w": 24,
         "x": 0,
-        "y": 16
+        "y": 15
       },
       "id": 16,
       "panels": [],
@@ -684,7 +647,7 @@
         "h": 7,
         "w": 12,
         "x": 0,
-        "y": 17
+        "y": 16
       },
       "id": 1,
       "isNew": true,
@@ -774,7 +737,7 @@
         "h": 7,
         "w": 12,
         "x": 12,
-        "y": 17
+        "y": 16
       },
       "id": 2,
       "isNew": true,
@@ -886,10 +849,10 @@
       "datasource": "Prometheus",
       "fill": 1,
       "gridPos": {
-        "h": 8,
+        "h": 7,
         "w": 12,
         "x": 0,
-        "y": 24
+        "y": 23
       },
       "id": 7,
       "legend": {
@@ -978,10 +941,10 @@
       "decimals": null,
       "fill": 1,
       "gridPos": {
-        "h": 9,
+        "h": 7,
         "w": 12,
         "x": 12,
-        "y": 24
+        "y": 23
       },
       "id": 32,
       "legend": {
@@ -1062,7 +1025,7 @@
       }
     }
   ],
-  "refresh": "1m",
+  "refresh": "10s",
   "schemaVersion": 16,
   "style": "dark",
   "tags": [],
@@ -1102,5 +1065,5 @@
   "timezone": "browser",
   "title": "Synology NAS",
   "uid": "sOwq23kgz",
-  "version": 10
+  "version": 1
 }
