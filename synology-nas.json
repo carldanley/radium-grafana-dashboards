@@ -207,11 +207,11 @@
       "legend": {
         "avg": false,
         "current": false,
-        "max": false,
+        "max": true,
         "min": false,
         "show": true,
         "total": false,
-        "values": false
+        "values": true
       },
       "lines": true,
       "linewidth": 1,
@@ -227,7 +227,8 @@
       "steppedLine": false,
       "targets": [
         {
-          "expr": "node_hwmon_temp_celsius{kubernetes_name=\"prometheus-node-exporter\",kubernetes_namespace=\"synology-nas\"}",
+          "$$hashKey": "object:159",
+          "expr": "(node_hwmon_temp_celsius{kubernetes_name=\"prometheus-node-exporter\",kubernetes_namespace=\"synology-nas\"}*1.8)+32",
           "format": "time_series",
           "intervalFactor": 1,
           "legendFormat": "{{chip}} {{sensor}}",
@@ -253,7 +254,9 @@
       },
       "yaxes": [
         {
-          "format": "celsius",
+          "$$hashKey": "object:187",
+          "decimals": null,
+          "format": "farenheit",
           "label": null,
           "logBase": 1,
           "max": null,
@@ -261,6 +264,7 @@
           "show": true
         },
         {
+          "$$hashKey": "object:188",
           "format": "short",
           "label": null,
           "logBase": 1,
@@ -1065,5 +1069,5 @@
   "timezone": "browser",
   "title": "Synology NAS",
   "uid": "sOwq23kgz",
-  "version": 1
+  "version": 14
 }
